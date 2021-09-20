@@ -1,0 +1,80 @@
+header {
+  font-size: 0.8rem;
+  padding-left: 2rem;
+  width: 15vw;
+  height: 100%;
+  background-color: #000000 ;
+  display: flex;
+  flex-direction: column;
+  color: #CCCCCC;
+}
+.header__up {
+  width: 90%;
+  border-bottom: 1px solid #CCCCCC;
+  padding-bottom: 1rem;
+}
+
+.logo {
+  margin: 2rem 2rem 2rem 0 ;
+}
+
+.logo__item {
+  width: 65%;
+}
+
+.navBar, .button {
+  font-weight: bolder;
+}
+.navBar__list__item {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-bottom: 1rem;
+}
+.navBar__list__item span{
+  margin-right: 1rem;
+}
+.navBar__list__item:hover{
+  color: white;
+}
+.button {
+  margin-top: 3rem;
+}
+.button__list__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.add {
+  margin-right: 1rem;
+  background-color: #CCCCCC;
+  padding: 0.5rem 0.6rem;
+  font-size: 1.2rem;
+  border-radius: 5%;
+  color:black;
+}
+
+.like {
+  margin-right: 1rem;
+  background-color: #6749EE;
+  padding: 0.2rem 0.3rem;
+  font-size: 1.2rem;
+  border-radius: 5%;
+  color:white;
+}
+
+.header__down {
+box-sizing: border-box;
+padding-top: 2rem;
+min-height: 40%;
+}
+
+.playlist {
+  height: 100%;
+  font-weight: 100;
+  overflow: scroll;
+}
+
+.playlist__item {
+  margin-bottom: 1rem;
+}

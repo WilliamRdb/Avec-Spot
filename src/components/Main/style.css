@@ -1,0 +1,171 @@
+main {
+  overflow: scroll;
+  height: 100%;
+}
+.main__album {
+  width: 100%;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+  background: rgb(30,55,147);
+  background: linear-gradient(180deg, rgba(30,55,147,1) 0%, rgba(14,27,73,1) 100%);
+  color: white;
+}
+.main__album__desc {
+  display: flex;
+}
+.main__album__desc__picture{
+  width: 20%;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
+}
+.main__album__desc__content{
+  display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.main__album__desc__content span {
+  margin-bottom: 0.7rem;
+}
+.main__album__desc__content h1 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 0.7rem;
+}
+.main__album__desc__content__precision {
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+}
+
+.main__album__desc__content__precision span{
+  margin: 0 0.3rem;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  color: #CCCCCC;
+}
+.main__album__desc__content__precision p {
+  display: flex;
+  align-items: center;
+  color: #CCCCCC;
+}
+.main__album__desc__content__precision__artiste {
+  display: flex;
+  align-items: center;
+}
+
+.main__album__desc__content__precision__artiste__img {
+  margin: 0 0.3rem 0 0;
+  width: 1.5rem;
+  border-radius: 50%;
+}
+
+.main__album__desc__content__precision__artiste__author a {
+  text-decoration: none;
+  color: white;
+}
+
+.main__album__desc__content__precision__artiste__author a:hover {
+  text-decoration: underline;
+}
+
+.main__tracks {
+  min-height: 100%;
+  background: rgb(12,20,56);
+  background: linear-gradient(180deg, rgba(12,20,56,1) 0%, rgba(16,18,29,1) 40%, rgba(18,18,18,1) 100%);
+}
+
+.main__tracks__option {
+  display: flex;
+  align-items: center;
+  padding: 1.5rem 3.5rem;
+}
+
+.main__tracks__option__play button {
+  padding: 1rem;
+  margin-right: 1rem;
+  border: none;
+  background-color: #1BB954;
+  border-radius: 50%;
+}
+
+.main__tracks__option__play span {
+  margin: 0 1rem;
+}
+
+.main__tracks__list {
+  margin: 0 auto;
+  padding: 1.5rem 2.5rem;
+}
+
+.main__tracks__list__title {
+  color:#CCC;
+  font-size: .9rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem 1rem;
+  border-bottom: 1px solid #CCC;
+}
+.main__tracks__list__title__left{
+  display: flex;
+}
+.main__tracks__list__title__left p{
+  margin-right: 1rem;
+  text-transform: uppercase;
+  letter-spacing: .3rem;
+}
+
+.main__tracks__list__playlist {
+  padding: 1.5rem 2rem;
+  color: #CCC;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main__tracks__list__playlist:first {
+  margin-top: 1rem;
+}
+
+.main__tracks__list__playlist:hover {
+  background-color:rgba(128, 128, 128, 0.219) ;
+  border-radius: 10px;
+}
+
+.main__tracks__list__playlist__left {
+  display: flex;
+}
+.main__tracks__list__playlist__left p {
+  margin-right: 1.8rem;
+}
+.main__tracks__list__playlist__left__song p {
+  color: white;
+}
+.main__tracks__list__playlist__left__song a {
+  text-decoration: none;
+  color: #CCC;
+  font-size: 0.8rem;
+}
+.main__tracks__list__playlist__left__song a:hover {
+  text-decoration: underline;
+}
+
+.main__tracks__list__playlist__rigth {
+  position: relative;
+  display: flex;
+}
+
+.main__tracks__list__playlist__rigth span {
+  right: 0;
+  position: absolute;
+  display: inline;
+  margin: 0 4rem;
+}
+.main__tracks__list__playlist__rigth em {
+  right: -2;
+  position: absolute;
+  display: inline;
+  margin: 0 4rem;
+}

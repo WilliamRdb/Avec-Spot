@@ -1,0 +1,35 @@
+.player__container {
+  padding: 1rem;
+  background-color: #181818;
+  width: 100%;
+  height: 10vh;
+  color: white;
+}
+
+.player__container__left {
+  display: flex;
+  align-items: center;
+}
+.player__container__left a:hover {
+  text-decoration: underline;
+}
+
+.player__container__left__img {
+  width: 4rem;
+  margin-right: 1rem;
+}
+.player__container__left__song {
+  display: flex;
+  flex-direction: column;
+}
+.player__container__left__song a {
+  text-decoration: none;
+  color: white;
+}
+.player__container__left__song__artist a {
+  color: #CCC;
+  font-size: 0.8rem;
+}
+.player__container__left__song__like {
+  margin: 0 1rem;
+}
